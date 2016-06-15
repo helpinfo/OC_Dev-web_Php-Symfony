@@ -1,0 +1,52 @@
+body
+{
+    background-image: url("img/background.jpg");
+	background-size: cover;
+}
+
+/* Définition de la police sur le titre principal */
+@font-face { 
+    font-family: 'LearningCurveProRegular';
+    src: url('font/LearningCurve.eot');
+    src: url('font/LearningCurve.eot?#iefix') format('embedded-opentype'),
+         url('font/LearningCurve.woff') format('woff'),
+         url('font/LearningCurve.ttf') format('truetype'),
+         url('font/LearningCurve.svg#LearningCurveProRegular') format('svg');
+}
+
+h1 
+{
+    font-family: 'LearningCurveProRegular', Arial, serif;
+	text-shadow: 2px 2px 4px black;
+	text-align: center;
+}
+
+h2
+{
+	color: teal;
+	text-decoration: underline;
+}
+
+.sous-titre
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+.imageflottante
+{
+    margin-top: 20px;
+	margin-right: 70px;
+	float: right;
+	height: 10%;
+	width: 10%;
+	border: 5px teal ridge;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px black;
+}
+
+.stopimage
+{
+    clear: both;
+}
+

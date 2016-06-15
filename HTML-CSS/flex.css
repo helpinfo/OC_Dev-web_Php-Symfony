@@ -1,0 +1,27 @@
+ #conteneur
+{
+    display: flex;
+	
+	border: 2px solid #444;
+}
+ 
+ .element
+ {
+	 width: 150px;
+	 height: 100px;
+}
+ 
+ .element:nth-child(1)
+ {
+	 background-color: orange;
+ }
+ 
+ .element:nth-child(2)
+ {
+	 background-color: blue;
+}
+ 
+ .element:nth-child(3)
+ {
+	 background-color: #ad6;
+}

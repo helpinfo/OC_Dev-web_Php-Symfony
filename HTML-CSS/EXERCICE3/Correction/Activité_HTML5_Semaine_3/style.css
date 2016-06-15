@@ -1,0 +1,161 @@
+/* Les fontes */
+
+@font-face {
+    font-family: 'Open_Sans_Light';
+    src: url('fonts/Open_Sans_Light.eot');
+    src: url('fonts/Open_Sans_Light.eot') format('embedded-opentype'),
+         url('fonts/Open_Sans_Light.woff') format('woff'),
+         url('fonts/Open_Sans_Light.ttf') format('truetype'),
+         url('fonts/Open_Sans_Light.svg#Open_Sans_Light') format('svg');
+}
+
+@font-face {
+    font-family: 'Open_Sans_Condensed_Bold';
+    src: url('fonts/Open_Sans_Condensed_Bold.eot');
+    src: url('fonts/Open_Sans_Condensed_Bold.eot') format('embedded-opentype'),
+         url('fonts/Open_Sans_Condensed_Bold.woff') format('woff'),
+         url('fonts/Open_Sans_Condensed_Bold.ttf') format('truetype'),
+         url('fonts/Open_Sans_Condensed_Bold.svg#Open_Sans_Condensed_Bold') format('svg');
+}
+
+/* Sélecteur universel */
+
+* {
+	margin:0;
+	padding: 0;
+}
+
+/* Les sélecteurs de type */
+
+body {
+	background: url(images/background.png) fixed repeat top left;
+	font-family: 'Open_Sans_Light', verdana, sans-serif;
+	}
+
+a { color: black; }
+a:hover { color: #63a4e1; }
+a:active { color: #FF0000; }
+
+h1 {
+	font-family: 'Open_Sans_Condensed_Bold', verdana, sans-serif;
+	font-size: 5em;
+	text-align: center;
+	color: #37342f;
+	}
+
+h2 {
+	font-family: 'Open_Sans_Condensed_Bold', verdana, sans-serif;
+	color: #63a4e1;
+	margin: 15px 0;
+	padding: 10px 0;
+	border-bottom: 1px #63a4e1 solid;
+	border-top: 1px #63a4e1 solid;
+	}
+
+li { margin: 10px 0 0 22px; }
+li span { font-family: 'Open_Sans_Condensed_Bold', verdana, sans-serif; }
+
+img {
+	border: 10px #FFF solid;
+	box-shadow: 0px 3px 5px grey;
+	}
+
+img:hover {
+	box-shadow: 0px 3px 5px black;
+	}
+
+/* Les sélecteurs de classe */
+
+.bloc_page {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	}
+
+.col-gauche {
+	width: 15%;
+	height: auto;
+	background-color: #63a4e1;
+	position: relative;
+	}
+
+.col-droite {
+	width: 85%;
+	height: auto;
+	padding: 50px;
+	}
+
+.top {
+	height: 140px;
+	padding-bottom: 80px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	}
+
+.top-1 {
+	width: 85%;
+	}
+
+.top-2 {
+	width: 15%;
+	}
+
+.box {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	}
+
+.box-1, .box-2, .box-3 {
+	width: 33%;
+	padding: 0 35px 35px 0;
+	}
+
+.box-1:hover>h2, .box-2:hover>h2, .box-3:hover>h2 {
+	color: #37342f;
+	}
+
+.bottom {
+	text-align: center;
+	margin-top: 100px;
+	color: #63a4e1;
+	}
+
+.profil {
+	text-align: center;
+	font-weight: bold;
+	}
+
+.adresse {
+	font-size: 12px;
+	color: #FFF;
+	padding: 12px;
+	position: absolute;
+	bottom: 100px;
+	left: 0;
+}
+
+.link {
+	font-size: 12px;
+	color: #FFF;
+	padding: 12px;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	}
+
+.link a {
+	color: black;
+	display: block;
+	padding-top: 5px;
+	}
+
+.link a:hover {
+	color: #FFF;
+	}
+
+.link a:active {
+	color: red;
+	}
