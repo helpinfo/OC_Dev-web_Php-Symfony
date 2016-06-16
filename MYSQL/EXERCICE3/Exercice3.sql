@@ -47,7 +47,7 @@ BEGIN
 			-- ajout d'une nouvelle ligne dans VM_Nombre_commentaires
 			-- avec 1 en valeur à Nbr_Commentaires
 			
-			-- (J'ai beau lire les cours et fouiner sur le net j'arrive pas a mettre en place cette condition !!)
+			-- (J'ai beau lire les cours et fouiner sur le net j'arrive pas à mettre en place cette condition !!)
 		
 		END IF; 
 	*/
@@ -70,7 +70,7 @@ BEGIN
 		SET Nbr_Commentaires = Nbr_Commentaires - 1
 		WHERE Art_id = OLD.article_id;
 		
-		-- Si tous les commentaire d'un article sont supprimer, suppression de la ligne dans VM_Nombre_commentaires
+		-- Si tous les commentaires d'un article sont supprimés, suppression de la ligne dans VM_Nombre_commentaires
 		DELETE FROM VM_Nombre_commentaires
 		WHERE Art_id = OLD.article_id
 		AND Nbr_Commentaires = 0;	
@@ -99,7 +99,7 @@ DELIMITER |
 	
 	CREATE PROCEDURE update_resume_article(IN p_new_article_id INT)
 	BEGIN
-		-- Si le resumé de l'article est vide alors mise a jour avec les 150 premiers charactère
+		-- Si le resumé de l'article est vide alors mise à jour avec les 150 premiers charactères
 		UPDATE Article
 			SET resume = SUBSTR(contenu, 1, 150)
 			WHERE id = p_new_article_id
@@ -135,7 +135,7 @@ DELIMITER ;
 ************************** */
 
 /*
-	Avec une simple commande les admin peuvent voir les statisque
+	Avec une simple commande les admin peuvent voir les statisques
 	
 	Syntax : CALL statistique_admin();
 */
@@ -146,7 +146,7 @@ DELIMITER ;
 
 DELIMITER |
 	
-	CREATE PROCEDURE update_statistique() -- Cette Procedure créée et mais a jours les diferente vue
+	CREATE PROCEDURE update_statistique() -- Cette Procedure créée et mets à jour les diferentes vues
 	BEGIN
 		CREATE OR REPLACE VIEW V_total_inscrit
 		AS SELECT COUNT(*) AS Total_Inscrit 
@@ -185,7 +185,7 @@ DELIMITER ;
 
 DELIMITER |
 	
-	CREATE PROCEDURE statistique_admin() -- Procedure principale lance la procedure d'update des vue et affiche la vue V_statistique_admin
+	CREATE PROCEDURE statistique_admin() -- Procedure principale lance la procedure d'update des vues et affiche la vue V_statistique_admin
 	BEGIN
 		Call update_statistique();
 		
