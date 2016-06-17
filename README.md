@@ -19,4 +19,4 @@ Ce repository a pour but le suivit de mon activité tous au long du parcours *D�
 + Créez des pages web interactives avec JavaScript 
 + Découvrez les solutions CMS
 + Créez votre premier site avec WordPress  
-+ Créez votre premier site avec WordPress
++ Créez votre site professionnel avec WordPress 
