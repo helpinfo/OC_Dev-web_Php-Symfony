@@ -11,3 +11,12 @@ Ce repository a pour but le suivit de mon activité tous au long du parcours *D�
 + V - Gérer son code avec Git et GitHub [[94% Certificat]](https://openclassrooms.com/course-certificates/7956362468)
 + VI - Programmez en orienté objet en PHP **[En Cours]**
 + VII - Développez votre site web avec le framework Symfony
+
+## Compléments
+
++ Apprenez à programmer en Java
++ Apprenez à coder avec JavaScript 
++ Créez des pages web interactives avec JavaScript 
++ Découvrez les solutions CMS
++ Créez votre premier site avec WordPress  
++ Créez votre premier site avec WordPress
