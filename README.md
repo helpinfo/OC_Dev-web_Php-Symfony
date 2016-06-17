@@ -17,6 +17,6 @@ Ce repository a pour but le suivit de mon activité tous au long du parcours *D�
 + Apprenez à programmer en Java
 + Apprenez à coder avec JavaScript 
 + Créez des pages web interactives avec JavaScript 
-+ Découvrez les solutions CMS
++ Découvrez les solutions CMS [[87% Certificat]](https://openclassrooms.com/course-certificates/5419303298)
 + Créez votre premier site avec WordPress  
 + Créez votre site professionnel avec WordPress 
