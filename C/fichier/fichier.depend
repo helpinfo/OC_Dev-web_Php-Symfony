@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1466298046 source:h:\openclassrooms\git\oc_dev-web_php-symfony\c\fichier\main.c
+	<stdio.h>
+	<stdlib.h>
+	"main.h"
+
+1466297860 h:\openclassrooms\git\oc_dev-web_php-symfony\c\fichier\main.h
+

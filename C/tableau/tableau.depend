@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1466258886 source:h:\openclassrooms\git\oc_dev-web_php-symfony\c\tableau\main.c
+	<stdio.h>
+	<stdlib.h>
+
