@@ -20,4 +20,4 @@ Ce repository a pour but le suivit de mon activité tous au long du parcours *D�
 + Découvrez les solutions CMS [[87% Certificat]](https://openclassrooms.com/course-certificates/5419303298)
 + Créez votre premier site avec WordPress  
 + Créez votre site professionnel avec WordPress 
-+ Apprenez à programmer en C **[Attente Correction]**
++ Apprenez à programmer en C [[85% Certificat]](https://openclassrooms.com/course-certificates/9905152856)
